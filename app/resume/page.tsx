@@ -14,10 +14,6 @@ export default function ResumePage() {
             <div className="max-w-4xl mx-auto">
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
                 <h1 className="text-4xl font-bold">Resume</h1>
-                <Button className="bg-red-600 hover:bg-red-700">
-                  Download PDF
-                  <Download className="ml-2 h-4 w-4" />
-                </Button>
               </div>
 
               <div className="bg-gray-900 rounded-lg p-8">
@@ -44,7 +40,7 @@ export default function ResumePage() {
                     <strong>Interests:</strong> DevSecOps | GitLab | Container Security | OWASP
                   </p>
                   <p className="text-gray-300">
-                    <strong>Environments:</strong> Azure | AWS | SOC2
+                    <strong>Environments:</strong> Azure | AWS
                   </p>
                 </div>
 
@@ -118,7 +114,7 @@ export default function ResumePage() {
                       <h4 className="text-lg font-semibold">DevSecOps Engineer</h4>
                       <div className="text-red-600">Jul 2024 - Present</div>
                     </div>
-                    <div className="text-gray-300 mb-2">National Philanthropic Trust, Remote</div>
+                    <div className="text-gray-300 mb-2">Confidential, Remote</div>
                     <ul className="list-disc list-inside text-gray-400 space-y-1">
                       <li>Designing and building DevSecOps Pipelines with SAST, DAST, and IaC tools</li>
                       <li>Implementing RBAC in Snyk to ensure proper access controls</li>
