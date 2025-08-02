@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Linkedin, Mail, Phone } from "lucide-react"
+import { Linkedin, Mail } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
               CGRIMBALL
             </Link>
             <p className="text-gray-400 mt-2 max-w-md">
-              Information Security Engineer specializing in DevSecOps, penetration testing, and application security
+              DevSecOps Engineer specializing in penetration testing, application security, and security automation
             </p>
           </div>
 
@@ -23,16 +23,9 @@ export default function Footer() {
               <Linkedin size={24} />
               <span className="sr-only">LinkedIn</span>
             </Link>
-            <Link
-              href="mailto:camerongrimball@protonmail.com"
-              className="text-gray-400 hover:text-white transition-colors"
-            >
+            <Link href="mailto:camg@duck.com" className="text-gray-400 hover:text-white transition-colors">
               <Mail size={24} />
               <span className="sr-only">Email</span>
-            </Link>
-            <Link href="tel:404-953-9205" className="text-gray-400 hover:text-white transition-colors">
-              <Phone size={24} />
-              <span className="sr-only">Phone</span>
             </Link>
           </div>
         </div>

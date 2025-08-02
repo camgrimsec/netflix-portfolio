@@ -40,17 +40,11 @@ export default function Navbar() {
             <Link href="/" className="text-white hover:text-red-600 transition-colors">
               Home
             </Link>
-            <Link href="#projects" className="text-white hover:text-red-600 transition-colors">
-              Projects
-            </Link>
             <Link href="/about" className="text-white hover:text-red-600 transition-colors">
               About
             </Link>
             <Link href="/contact" className="text-white hover:text-red-600 transition-colors">
               Contact
-            </Link>
-            <Link href="/resume" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded transition-colors">
-              Resume
             </Link>
           </nav>
 
@@ -73,13 +67,6 @@ export default function Navbar() {
               Home
             </Link>
             <Link
-              href="#projects"
-              className="text-white hover:text-red-600 transition-colors py-2"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Projects
-            </Link>
-            <Link
               href="/about"
               className="text-white hover:text-red-600 transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
@@ -92,13 +79,6 @@ export default function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Contact
-            </Link>
-            <Link
-              href="/resume"
-              className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded transition-colors inline-block w-fit"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Resume
             </Link>
           </div>
         </div>

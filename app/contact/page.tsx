@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react"
+import { Mail, MapPin, Linkedin } from "lucide-react"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 
@@ -24,15 +24,24 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6 text-red-600" />
                 </div>
                 <h3 className="text-lg font-bold mb-2">Email</h3>
-                <p className="text-gray-400">camerongrimball@protonmail.com</p>
+                <a href="mailto:camg@duck.com" className="text-gray-400 hover:text-white transition-colors">
+                  camg@duck.com
+                </a>
               </div>
 
               <div className="bg-gray-900 p-6 rounded-lg text-center">
                 <div className="bg-red-600/20 p-3 rounded-full w-fit mx-auto mb-4">
-                  <Phone className="h-6 w-6 text-red-600" />
+                  <Linkedin className="h-6 w-6 text-red-600" />
                 </div>
-                <h3 className="text-lg font-bold mb-2">Phone</h3>
-                <p className="text-gray-400">404-953-9205</p>
+                <h3 className="text-lg font-bold mb-2">LinkedIn</h3>
+                <a
+                  href="https://www.linkedin.com/in/cameron-grimball/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  cameron-grimball
+                </a>
               </div>
 
               <div className="bg-gray-900 p-6 rounded-lg text-center">

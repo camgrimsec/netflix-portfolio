@@ -16,8 +16,8 @@ export default function AboutPage() {
               <div className="w-full md:w-1/2 order-2 md:order-1">
                 <h1 className="text-4xl md:text-5xl font-bold mb-6">About Me</h1>
                 <p className="text-xl text-gray-300 mb-6">
-                  I'm Cameron Grimball, a passionate Security Engineer with expertise in DevSecOps, penetration testing,
-                  and application security.
+                  I'm Cameron Grimball, a passionate DevSecOps Engineer with expertise in penetration testing,
+                  application security, and security automation.
                 </p>
                 <p className="text-gray-400 mb-8">
                   My journey in cybersecurity began at Gwinnett Technical College and has evolved through hands-on
@@ -31,12 +31,6 @@ export default function AboutPage() {
                   >
                     Get In Touch
                     <ArrowRight className="h-5 w-5" />
-                  </Link>
-                  <Link
-                    href="/resume"
-                    className="bg-gray-800 hover:bg-gray-700 text-white px-6 py-3 rounded transition-colors"
-                  >
-                    View Resume
                   </Link>
                 </div>
               </div>
@@ -163,9 +157,10 @@ export default function AboutPage() {
                   <div className="flex md:justify-end md:w-1/2 md:pr-8 order-2 md:order-1">
                     <div className="bg-gray-900 p-6 rounded-lg w-full md:max-w-sm">
                       <h3 className="text-xl font-bold mb-1">DevSecOps Engineer</h3>
-                      <p className="text-red-600 mb-3">National Philanthropic Trust (Jul 2024 - Present)</p>
+                      <p className="text-red-600 mb-3">Enterprise Security Role (2024)</p>
                       <p className="text-gray-400">
-                        Designing DevSecOps pipelines and automating vulnerability reporting with Jira.
+                        Designing DevSecOps pipelines and automating vulnerability reporting with enterprise security
+                        tools.
                       </p>
                     </div>
                   </div>
@@ -186,7 +181,7 @@ export default function AboutPage() {
                       <p className="text-red-600 mb-3">HD Supply (Jul 2022 - Jul 2024)</p>
                       <p className="text-gray-400">
                         Consistently performed penetration tests and managed vulnerabilities for multiple developer
-                        teams in an enterprise.
+                        teams in an enterprise environment.
                       </p>
                     </div>
                   </div>
@@ -199,7 +194,7 @@ export default function AboutPage() {
                       <p className="text-red-600 mb-3">CommScope (Jun 2021 - Jul 2022)</p>
                       <p className="text-gray-400">
                         Analyzed Azure security environments and mitigated threats using Sentinel One and Microsoft
-                        tools.
+                        security tools.
                       </p>
                     </div>
                   </div>
