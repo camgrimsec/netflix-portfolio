@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <Link href="/" className="text-red-600 font-bold text-2xl">
-              CGRIMBALL
+              CAMERONG
             </Link>
             <p className="text-gray-400 mt-2 max-w-md">
               DevSecOps Engineer specializing in penetration testing, application security, and security automation

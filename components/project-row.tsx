@@ -48,16 +48,23 @@ export default function ProjectRow({ title, projects }: ProjectRowProps) {
 
       {/* Project Detail Modal */}
       {selectedProject && (
-        <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4">
-          <div className="relative max-w-4xl w-full bg-gray-900 rounded-lg overflow-hidden">
+        <div
+          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-6"
+          onClick={() => setSelectedProject(null)}
+        >
+          <div
+            className="relative max-w-3xl w-full bg-gray-900 rounded-lg overflow-hidden max-h-[85vh] overflow-y-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* More Prominent Close Button */}
             <button
-              className="absolute top-4 right-4 text-white bg-black/50 p-2 rounded-full z-10"
+              className="absolute top-4 right-4 text-white bg-red-600 hover:bg-red-700 p-3 rounded-full z-30 transition-colors shadow-lg"
               onClick={() => setSelectedProject(null)}
             >
-              <X size={20} />
+              <X size={24} />
             </button>
 
-            <div className="h-[300px] md:h-[400px] relative">
+            <div className="h-[250px] md:h-[300px] relative">
               {selectedProject.title === "Certified DevSecOps Professional" ? (
                 <>
                   <video autoPlay muted loop playsInline className="w-full h-full object-cover">

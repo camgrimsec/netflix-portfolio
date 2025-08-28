@@ -16,7 +16,7 @@ export default function AboutPage() {
               <div className="w-full md:w-1/2 order-2 md:order-1">
                 <h1 className="text-4xl md:text-5xl font-bold mb-6">About Me</h1>
                 <p className="text-xl text-gray-300 mb-6">
-                  I'm Cameron Grimball, a passionate DevSecOps Engineer with expertise in penetration testing,
+                  I'm Cameron, a passionate DevSecOps Engineer with expertise in penetration testing,
                   application security, and security automation.
                 </p>
                 <p className="text-gray-400 mb-8">
