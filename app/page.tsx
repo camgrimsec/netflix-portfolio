@@ -10,8 +10,8 @@ export default function Home() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative h-[80vh] w-full overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black z-10" />
+      <section className="relative h-[100vh] w-full overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black z-10" />
 
         {/* Background Video */}
         <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover">
@@ -23,28 +23,28 @@ export default function Home() {
           />
         </video>
 
-        <div className="relative z-20 container mx-auto px-4 h-full flex flex-col justify-center">
-          <h1 className="text-5xl md:text-7xl font-bold mb-4">
+        <div className="relative z-20 container mx-auto px-4 h-full flex flex-col justify-center pt-16 md:pt-20">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-4">
             Hello, I'm <span className="text-red-600">Cameron</span>
           </h1>
-          <p className="text-xl md:text-2xl mb-4 max-w-2xl">DevSecOps Engineer</p>
-          <p className="text-lg text-gray-300 mb-6 max-w-3xl">
+          <p className="text-lg md:text-xl lg:text-2xl mb-4 max-w-2xl">DevSecOps Engineer</p>
+          <p className="text-sm md:text-lg text-gray-300 mb-6 max-w-3xl">
             Passionate about integrating security into every stage of the development lifecycle. I specialize in
             building robust DevSecOps pipelines, automating vulnerability management, and conducting comprehensive
             security assessments. With expertise in cloud security, container security, and penetration testing, I help
             organizations shift security left and build more secure applications from the ground up.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="#projects"
-              className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded flex items-center gap-2 font-medium transition-colors"
+              className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded flex items-center justify-center gap-2 font-medium transition-colors"
             >
               View My Work
               <ChevronRight className="h-5 w-5" />
             </Link>
             <Link
               href="/about"
-              className="bg-gray-800 hover:bg-gray-700 text-white px-6 py-3 rounded font-medium transition-colors"
+              className="bg-gray-800 hover:bg-gray-700 text-white px-6 py-3 rounded font-medium transition-colors text-center"
             >
               About Me
             </Link>
